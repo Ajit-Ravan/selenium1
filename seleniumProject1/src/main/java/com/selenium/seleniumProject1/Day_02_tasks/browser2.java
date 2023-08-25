@@ -1,4 +1,4 @@
-package com.selenium.seleniumProject1;
+package com.selenium.seleniumProject1.Day_02_tasks;
 
 
 import java.util.Set;

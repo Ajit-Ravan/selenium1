@@ -1,4 +1,4 @@
-package com.selenium.seleniumProject1;
+package com.selenium.seleniumProject1.Day_03_Tasks;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.edge.EdgeDriver;

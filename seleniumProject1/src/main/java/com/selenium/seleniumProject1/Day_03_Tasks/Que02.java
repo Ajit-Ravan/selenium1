@@ -1,4 +1,4 @@
-package com.selenium.seleniumProject1;
+package com.selenium.seleniumProject1.Day_03_Tasks;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

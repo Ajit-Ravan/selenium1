@@ -1,4 +1,4 @@
-package com.selenium.seleniumProject1;
+package com.selenium.seleniumProject1.Day_04_Tasks;
 
 import java.util.List;
 
