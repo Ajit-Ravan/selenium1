@@ -1,0 +1,125 @@
+{
+  "id": "81d7c00d-6dc0-453b-a3f7-9e5f7be65d0f",
+  "version": "2.0",
+  "name": "Question1",
+  "url": "https://www.google.com",
+  "tests": [{
+    "id": "ebd9a781-a423-4bc3-a1ad-f89a0e5b152a",
+    "name": "Untitled",
+    "commands": []
+  }, {
+    "id": "886673d0-8b9f-427a-8480-fbe32a4f81ea",
+    "name": "question1",
+    "commands": [{
+      "id": "f8ea38a5-884c-49d2-b31c-11c841fa6830",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "14b93dd7-d72f-4703-a1df-467ad7a4e57c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x660",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "381b641a-2723-4a98-9828-992580fe7dd7",
+      "comment": "",
+      "command": "type",
+      "target": "id=APjFqb",
+      "targets": [
+        ["id=APjFqb", "id"],
+        ["name=q", "name"],
+        ["css=#APjFqb", "css:finder"],
+        ["xpath=//textarea[@id='APjFqb']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "selenium suite"
+    }, {
+      "id": "5a198bc3-e327-46f7-9e3e-d2cf051107c6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hlcw0c:nth-child(1) .LC20lb",
+      "targets": [
+        ["css=.hlcw0c:nth-child(1) .LC20lb", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div/div/div/a/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Selenium Tool Suite')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "44ad8f7d-a415-409d-98c3-5c0d50b0f48e",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Selenium",
+      "targets": [
+        ["linkText=Selenium", "linkText"],
+        ["css=.selected", "css:finder"],
+        ["xpath=//a[contains(text(),'Selenium')]", "xpath:link"],
+        ["xpath=//div[@id='link']/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'selenium-tutorial')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,' Selenium')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b19921c2-43fc-4cec-a356-2f3af5b6e72a",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Selenium",
+      "targets": [
+        ["linkText=Selenium", "linkText"],
+        ["css=.selected", "css:finder"],
+        ["xpath=//a[contains(text(),'Selenium')]", "xpath:link"],
+        ["xpath=//div[@id='link']/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'selenium-tutorial')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,' Selenium')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5e00e86c-be73-4049-96ca-17f94ffd9da5",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=div:nth-child(1) > a > img",
+      "targets": [
+        ["css=div:nth-child(1) > a > img", "css:finder"],
+        ["xpath=//img[@alt='Javatpoint Logo']", "xpath:img"],
+        ["xpath=//div[@id='container']/div/table/tbody/tr/td/div/a/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c2f34a8e-4413-40bc-930e-5467e2fcebc5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.g:nth-child(4) .LC20lb",
+      "targets": [
+        ["css=.g:nth-child(4) .LC20lb", "css:finder"],
+        ["xpath=//div[@id='rso']/div[3]/div/div/div/div/div/a/h3", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[3]/div/div/div/div/div/a/h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Selenium Tool Suite - Components and Features')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9637ac91-105a-4015-884a-e296d0e9f0c3",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "b3668037-c9bf-4353-b42c-24fbe39b4f70",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["ebd9a781-a423-4bc3-a1ad-f89a0e5b152a"]
+  }],
+  "urls": ["https://www.google.com/"],
+  "plugins": []
+}

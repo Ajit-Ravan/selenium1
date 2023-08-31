@@ -78,7 +78,7 @@ public class Que2ExplicitWait {
 		//print list on the console
 		List<WebElement> list = driver.findElements(By.className("orangehrm-container"));
 		for(WebElement webE : list) {
-			System.out.println(webE);
+			System.out.println(webE.getText());
 		}
 		
 

@@ -68,15 +68,18 @@ public class Waits {
 
 		driver.manage().window().maximize();
 		driver.get("https://omayo.blogspot.com/");
-		Wait<WebDriver> wait = new FluentWait<WebDriver>(driver)
-				.withTimeout(Duration.ofSeconds(10))  //this defines the total amount of time to wait for
-				.pollingEvery(Duration.ofSeconds(3))  //this defines the polling frequency
-				.ignoring(NoSuchElementException.class); //this defines the exception to ignore
+		Wait<WebDriver> wait = new FluentWait<WebDriver>(driver).withTimeout(Duration.ofSeconds(10)) // this defines the
+																										// total amount
+																										// of time to
+																										// wait for
+				.pollingEvery(Duration.ofSeconds(3)) // this defines the polling frequency
+				.ignoring(NoSuchElementException.class); // this defines the exception to ignore
 
 		WebElement foo = wait.until(new Function<WebDriver, WebElement>() {
 			public WebElement apply(WebDriver driver) {
 				return driver.findElement(By.id("foo"));
-				}});
+			}
+		});
 
 	}
 
