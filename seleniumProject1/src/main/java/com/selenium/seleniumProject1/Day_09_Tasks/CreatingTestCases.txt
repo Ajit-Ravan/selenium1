@@ -1,0 +1,71 @@
+Test case 1:
+
+To create a Selenium IDE script for the webpage https://www.techlistic.com/p/selenium-practice-form.html, follow the steps below:
+1.Launch Selenium IDE in Firefox.
+2.Navigate to https://www.techlistic.com/p/selenium-practice-form.html in Firefox.
+3.Click on the "Record" button in Selenium IDE.
+4.Fill out the form with the following details:
+5.Click on the "Submit" button.
+
+Test Case 2:
+
+1. open https://omayo.blogspot.com/ 
+2.click on blogs
+3. assert the value of selenium123
+4.
+
+
+Test Case 3:
+1. open https://jqueryui.com/ 
+2.click on API documentation
+3. store the Can't find what you're looking for? int the variable
+4.assert stored element with the element on website
+
+Test Case 4:
+1. open https://jqueryui.com/ 
+2. click on draggable
+3. click on view source
+4. print the code 
+
+Test Case 5:
+1. open https://magento.softwaretestingboard.com/?ref=hackernoon.com
+2.click on Hero Hoodie
+3. add that Hero Hoodie in cart
+4. go to cart 
+5. assert hoodie is present in cart or not
+
+Test Case 6:
+1. open https://magento.softwaretestingboard.com/?ref=hackernoon.com
+2.click on men > tops> 
+3. add Cassius Sparring Tank in cart
+4. check subtotal is 18 or not
+
+Test Case 7:
+1. open https://magento.softwaretestingboard.com/?ref=hackernoon.com
+2. click on sale
+3. go back on home page 
+4. assert home page url and current page url 
+5. assert page title 
+
+Test Case 8: Enter Search Term
+
+1.Open https://www.google.com
+1.Locate the search input field on the webpage (e.g., the Google search bar).
+2.Enter a search term like "Selenium IDE" in the "Target" field.
+3.Click the "Add Command" button to add the type action.
+
+Test Case 9:
+1. open https://www.demoblaze.com/
+2.click on contact
+3. fill the area and send the message
+4.assert Sony xperia z5 
+5.click on Sony vaio i5 and print the product description
+
+Test Case 10:
+1. open open https://www.demoblaze.com/
+2. click on monitors
+3. click on Apple monitor 24
+4. add Apple monitor 24 to cart
+5. click on the cart
+6.assert price 400 
+
